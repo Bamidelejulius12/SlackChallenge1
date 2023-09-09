@@ -14,19 +14,19 @@
     <div class="CardSection">
         <div class="CardContainer">
             <div class="card">
-                <img src="img1.jpg" class="CardImg" height="150px" width="150px">
-                <div class="SlackUsername"><i class='bx bxs-user-circle'></i><h3>Username: Bamidele Julius </h3></div>
+                <img src="img1.jpg" data-testid="slackDisplayImage" class="CardImg" height="150px" width="150px">
+                <div class="SlackUsername"  data-testid="slackUserName"><i class='bx bxs-user-circle'></i><h3>Username: Bamidele Julius </h3></div>
 
-                <div class="Slacktrack"> <i class='bx bx-code-alt'></i> <p> Track: Front-End Web-Development</p></div>
+                <div class="Slacktrack"  data-testid="myTrack"> <i class='bx bx-code-alt'></i> <p> Track: Front-End Web-Development</p></div>
 
-                <div class="SlackDay"> </div>
+                <div class="SlackDay" data-testid="currentDayOfTheWeek"> </div>
                 <div class="CurentUTCTime">
                     <i class='bx bxs-time'></i>
                     <div class="format">
-                        <div class="CurrentUTCdate"></div>
+                        <div class="CurrentUTCdate"  data-testid="currentUTCTime"></div>
                     </div>
                 </div>
-                <div class="GitHubRepo"> <a href=""><i class='bx bxl-github'></i> GitHub Repo &rArr;</a></div>
+                <div class="GitHubRepo"  data-testid=“githubURL”> <a href=""><i class='bx bxl-github'></i> GitHub Repo &rArr;</a></div>
 
             </div>
         </div>
