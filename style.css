@@ -1,0 +1,143 @@
+@font-face {
+    font-family: customfont;
+    src: url(BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: customfont;
+    font-weight: bold;
+}
+.CardImg{
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+.card{
+    padding: 1rem;
+    height: auto;
+    border-radius: 1rem;
+    background-color:#4a154b;
+    box-shadow: 20px 10px 31px whitesmoke, -20px -10px 31px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center ; */
+   
+    line-height: 3;
+}
+.CardContainer{
+    max-width: 29rem;
+    width: 25rem;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.SlackUsername{
+    color: #F4EDE4;
+    font-size: 1.2rem;
+    display: flex;
+   align-items: center;
+   gap: 0.3rem;
+}
+.Slacktrack{
+   color: yellow;
+   font-weight: bold;
+   font-size: 1.2rem;
+   display: flex;
+   align-items: center;
+   gap: 0.4rem;
+}
+.SlackDay{
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.CurentUTCTime{
+    color: aliceblue;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.GitHubRepo a{
+    text-decoration: none;
+    color: #4a154b;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.bx{
+    font-size: 2rem;
+
+}
+@media screen and (min-width:320px) and (max-width: 380px) {
+    .CardContainer{
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 70vh;
+    margin: 20px auto;
+    }
+
+    .card{
+        padding: 0.4rem;
+        height: auto;
+        border-radius: 1rem;
+        background-color:#4a154b;
+        box-shadow: 20px 10px 31px whitesmoke, -20px -10px 31px whitesmoke;
+        display: flex;
+        flex-direction: column;
+       
+        line-height: 3;
+    }
+    .SlackUsername{
+        color: #F4EDE4;
+        font-size: 1rem;
+        display: flex;
+       align-items: center;
+       gap: 0.3rem;
+    }
+
+    .Slacktrack{
+        color: yellow;
+        font-weight: bold;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+     }
+     .SlackDay{
+         color: white;
+         font-size: 1rem;
+         display: flex;
+         align-items: center;
+         gap: 0.4rem;
+     }
+     .CurentUTCTime{
+         color: aliceblue;
+         font-size: 0.9rem;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         gap: 0.4rem;
+     }
+     
+}
